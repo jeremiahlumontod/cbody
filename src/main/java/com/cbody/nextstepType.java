@@ -283,7 +283,7 @@ public class nextstepType extends com.altova.xml.TypeBase
 				
 				public Object next()
 				{
-					com.cbody.xs.booleanType nx = new com.cbody.xs.booleanType(nextNode);
+					bflagType nx = new bflagType(nextNode);
 					nextNode = nextNode.getNextSibling();
 					return nx;
 				}
@@ -293,10 +293,10 @@ public class nextstepType extends com.altova.xml.TypeBase
 			protected com.altova.xml.TypeBase owner;
 			protected com.altova.typeinfo.MemberInfo info;
 			public MemberElement_bflag (com.altova.xml.TypeBase owner, com.altova.typeinfo.MemberInfo info) { this.owner = owner; this.info = info;}
-			public com.cbody.xs.booleanType at(int index) {return new com.cbody.xs.booleanType(owner.getElementAt(info, index));}
-			public com.cbody.xs.booleanType first() {return new com.cbody.xs.booleanType(owner.getElementFirst(info));}
-			public com.cbody.xs.booleanType last(){return new com.cbody.xs.booleanType(owner.getElementLast(info));}
-			public com.cbody.xs.booleanType append(){return new com.cbody.xs.booleanType(owner.createElement(info));}
+			public bflagType at(int index) {return new bflagType(owner.getElementAt(info, index));}
+			public bflagType first() {return new bflagType(owner.getElementFirst(info));}
+			public bflagType last(){return new bflagType(owner.getElementLast(info));}
+			public bflagType append(){return new bflagType(owner.createElement(info));}
 			public boolean exists() {return count() > 0;}
 			public int count() {return owner.countElement(info);}
 			public void remove() {owner.removeElement(info);}

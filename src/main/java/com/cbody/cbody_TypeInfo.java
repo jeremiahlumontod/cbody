@@ -29,67 +29,68 @@ public class cbody_TypeInfo
 	// typeinfo indices
 	public static final int _altova_tif = 0 ;
 	public static final int _altova_ti_altova_cbody2 = _altova_tif ;
-	public static final int _altova_ti_altova_completedType = 1 ;
-	public static final int _altova_ti_altova_completedType2 = 2 ;
-	public static final int _altova_ti_altova_detailsType = 3 ;
-	public static final int _altova_ti_altova_stepsType = 4 ;
-	public static final int _altova_ti_altova_nextstepType = 5 ;
-	public static final int _altova_ti_altova_procidinstanceType = 6 ;
-	public static final int _altova_ti_altova_taskidType = 7 ;
-	public static final int _altova_ti_altova_tasknameType = 8 ;
-	public static final int _altova_ti_altova_stepType = 9 ;
-	public static final int _altova_ti_altova_useridType = 10 ;
-	public static final int _altova_til = 11 ;
+	public static final int _altova_ti_altova_bflagType = 1 ;
+	public static final int _altova_ti_altova_bflagType2 = 2 ;
+	public static final int _altova_ti_altova_completedType = 3 ;
+	public static final int _altova_ti_altova_completedType2 = 4 ;
+	public static final int _altova_ti_altova_detailsType = 5 ;
+	public static final int _altova_ti_altova_stepsType = 6 ;
+	public static final int _altova_ti_altova_nextstepType = 7 ;
+	public static final int _altova_ti_altova_procidinstanceType = 8 ;
+	public static final int _altova_ti_altova_taskidType = 9 ;
+	public static final int _altova_ti_altova_tasknameType = 10 ;
+	public static final int _altova_ti_altova_stepType = 11 ;
+	public static final int _altova_ti_altova_useridType = 12 ;
+	public static final int _altova_til = 13 ;
 
 	public static final int _altova_tif_xs = _altova_til;
 	public static final int _altova_ti_xs_altova_ENTITIES = _altova_tif_xs ;
-	public static final int _altova_ti_xs_altova_ENTITY = 12 ;
-	public static final int _altova_ti_xs_altova_ID = 13 ;
-	public static final int _altova_ti_xs_altova_IDREF = 14 ;
-	public static final int _altova_ti_xs_altova_IDREFS = 15 ;
-	public static final int _altova_ti_xs_altova_NCName = 16 ;
-	public static final int _altova_ti_xs_altova_NMTOKEN = 17 ;
-	public static final int _altova_ti_xs_altova_NMTOKENS = 18 ;
-	public static final int _altova_ti_xs_altova_NOTATION = 19 ;
-	public static final int _altova_ti_xs_altova_Name = 20 ;
-	public static final int _altova_ti_xs_altova_QName = 21 ;
-	public static final int _altova_ti_xs_altova_anySimpleType = 22 ;
-	public static final int _altova_ti_xs_altova_anyType = 23 ;
-	public static final int _altova_ti_xs_altova_anyURI = 24 ;
-	public static final int _altova_ti_xs_altova_base64Binary = 25 ;
-	public static final int _altova_ti_xs_altova_boolean2 = 26 ;
-	public static final int _altova_ti_xs_altova_byte2 = 27 ;
-	public static final int _altova_ti_xs_altova_date = 28 ;
-	public static final int _altova_ti_xs_altova_dateTime = 29 ;
-	public static final int _altova_ti_xs_altova_decimal = 30 ;
-	public static final int _altova_ti_xs_altova_double2 = 31 ;
-	public static final int _altova_ti_xs_altova_duration = 32 ;
-	public static final int _altova_ti_xs_altova_float2 = 33 ;
-	public static final int _altova_ti_xs_altova_gDay = 34 ;
-	public static final int _altova_ti_xs_altova_gMonth = 35 ;
-	public static final int _altova_ti_xs_altova_gMonthDay = 36 ;
-	public static final int _altova_ti_xs_altova_gYear = 37 ;
-	public static final int _altova_ti_xs_altova_gYearMonth = 38 ;
-	public static final int _altova_ti_xs_altova_hexBinary = 39 ;
-	public static final int _altova_ti_xs_altova_int2 = 40 ;
-	public static final int _altova_ti_xs_altova_integer = 41 ;
-	public static final int _altova_ti_xs_altova_language = 42 ;
-	public static final int _altova_ti_xs_altova_long2 = 43 ;
-	public static final int _altova_ti_xs_altova_negativeInteger = 44 ;
-	public static final int _altova_ti_xs_altova_nonNegativeInteger = 45 ;
-	public static final int _altova_ti_xs_altova_nonPositiveInteger = 46 ;
-	public static final int _altova_ti_xs_altova_normalizedString = 47 ;
-	public static final int _altova_ti_xs_altova_positiveInteger = 48 ;
-	public static final int _altova_ti_xs_altova_short2 = 49 ;
-	public static final int _altova_ti_xs_altova_string2 = 50 ;
-	public static final int _altova_ti_xs_altova_time = 51 ;
-	public static final int _altova_ti_xs_altova_token = 52 ;
-	public static final int _altova_ti_xs_altova_unsignedByte = 53 ;
-	public static final int _altova_ti_xs_altova_unsignedInt = 54 ;
-	public static final int _altova_ti_xs_altova_unsignedLong = 55 ;
-	public static final int _altova_ti_xs_altova_unsignedShort = 56 ;
-	public static final int _altova_ti_xs_altova_booleanType = 57 ;
-	public static final int _altova_til_xs = 58 ;
+	public static final int _altova_ti_xs_altova_ENTITY = 14 ;
+	public static final int _altova_ti_xs_altova_ID = 15 ;
+	public static final int _altova_ti_xs_altova_IDREF = 16 ;
+	public static final int _altova_ti_xs_altova_IDREFS = 17 ;
+	public static final int _altova_ti_xs_altova_NCName = 18 ;
+	public static final int _altova_ti_xs_altova_NMTOKEN = 19 ;
+	public static final int _altova_ti_xs_altova_NMTOKENS = 20 ;
+	public static final int _altova_ti_xs_altova_NOTATION = 21 ;
+	public static final int _altova_ti_xs_altova_Name = 22 ;
+	public static final int _altova_ti_xs_altova_QName = 23 ;
+	public static final int _altova_ti_xs_altova_anySimpleType = 24 ;
+	public static final int _altova_ti_xs_altova_anyType = 25 ;
+	public static final int _altova_ti_xs_altova_anyURI = 26 ;
+	public static final int _altova_ti_xs_altova_base64Binary = 27 ;
+	public static final int _altova_ti_xs_altova_boolean2 = 28 ;
+	public static final int _altova_ti_xs_altova_byte2 = 29 ;
+	public static final int _altova_ti_xs_altova_date = 30 ;
+	public static final int _altova_ti_xs_altova_dateTime = 31 ;
+	public static final int _altova_ti_xs_altova_decimal = 32 ;
+	public static final int _altova_ti_xs_altova_double2 = 33 ;
+	public static final int _altova_ti_xs_altova_duration = 34 ;
+	public static final int _altova_ti_xs_altova_float2 = 35 ;
+	public static final int _altova_ti_xs_altova_gDay = 36 ;
+	public static final int _altova_ti_xs_altova_gMonth = 37 ;
+	public static final int _altova_ti_xs_altova_gMonthDay = 38 ;
+	public static final int _altova_ti_xs_altova_gYear = 39 ;
+	public static final int _altova_ti_xs_altova_gYearMonth = 40 ;
+	public static final int _altova_ti_xs_altova_hexBinary = 41 ;
+	public static final int _altova_ti_xs_altova_int2 = 42 ;
+	public static final int _altova_ti_xs_altova_integer = 43 ;
+	public static final int _altova_ti_xs_altova_language = 44 ;
+	public static final int _altova_ti_xs_altova_long2 = 45 ;
+	public static final int _altova_ti_xs_altova_negativeInteger = 46 ;
+	public static final int _altova_ti_xs_altova_nonNegativeInteger = 47 ;
+	public static final int _altova_ti_xs_altova_nonPositiveInteger = 48 ;
+	public static final int _altova_ti_xs_altova_normalizedString = 49 ;
+	public static final int _altova_ti_xs_altova_positiveInteger = 50 ;
+	public static final int _altova_ti_xs_altova_short2 = 51 ;
+	public static final int _altova_ti_xs_altova_string2 = 52 ;
+	public static final int _altova_ti_xs_altova_time = 53 ;
+	public static final int _altova_ti_xs_altova_token = 54 ;
+	public static final int _altova_ti_xs_altova_unsignedByte = 55 ;
+	public static final int _altova_ti_xs_altova_unsignedInt = 56 ;
+	public static final int _altova_ti_xs_altova_unsignedLong = 57 ;
+	public static final int _altova_ti_xs_altova_unsignedShort = 58 ;
+	public static final int _altova_til_xs = 59 ;
 
 
 
@@ -111,10 +112,23 @@ public class cbody_TypeInfo
 	};
 
 
-	public static class _altova_mi_altova_completedType {
+	public static class _altova_mi_altova_bflagType {
 		public static final int begin = _altova_mi_altova_cbody2.end ;
-		public static final int _unnamed = _altova_mi_altova_completedType.begin ;
+		public static final int _unnamed = _altova_mi_altova_bflagType.begin ;
 		public static final int end = 11 ;
+	};
+
+
+	public static class _altova_mi_altova_bflagType2 {
+		public static final int begin = _altova_mi_altova_bflagType.end ;
+		public static final int end = _altova_mi_altova_bflagType2.begin ;
+	};
+
+
+	public static class _altova_mi_altova_completedType {
+		public static final int begin = _altova_mi_altova_bflagType2.end ;
+		public static final int _unnamed = _altova_mi_altova_completedType.begin ;
+		public static final int end = 12 ;
 	};
 
 
@@ -127,62 +141,62 @@ public class cbody_TypeInfo
 	public static class _altova_mi_altova_detailsType {
 		public static final int begin = _altova_mi_altova_completedType2.end ;
 		public static final int _steps = _altova_mi_altova_detailsType.begin ;
-		public static final int end = 12 ;
+		public static final int end = 13 ;
 	};
 
 
 	public static class _altova_mi_altova_stepsType {
 		public static final int begin = _altova_mi_altova_detailsType.end ;
 		public static final int _nextstep = _altova_mi_altova_stepsType.begin ;
-		public static final int end = 13 ;
+		public static final int end = 14 ;
 	};
 
 
 	public static class _altova_mi_altova_nextstepType {
 		public static final int begin = _altova_mi_altova_stepsType.end ;
 		public static final int _procidinstance = _altova_mi_altova_nextstepType.begin ;
-		public static final int _taskid = 14 ;
-		public static final int _taskname = 15 ;
-		public static final int _step = 16 ;
-		public static final int _userid = 17 ;
-		public static final int _bflag = 18 ;
-		public static final int _completed = 19 ;
-		public static final int end = 20 ;
+		public static final int _taskid = 15 ;
+		public static final int _taskname = 16 ;
+		public static final int _step = 17 ;
+		public static final int _userid = 18 ;
+		public static final int _bflag = 19 ;
+		public static final int _completed = 20 ;
+		public static final int end = 21 ;
 	};
 
 
 	public static class _altova_mi_altova_procidinstanceType {
 		public static final int begin = _altova_mi_altova_nextstepType.end ;
 		public static final int _unnamed = _altova_mi_altova_procidinstanceType.begin ;
-		public static final int end = 21 ;
+		public static final int end = 22 ;
 	};
 
 
 	public static class _altova_mi_altova_taskidType {
 		public static final int begin = _altova_mi_altova_procidinstanceType.end ;
 		public static final int _unnamed = _altova_mi_altova_taskidType.begin ;
-		public static final int end = 22 ;
+		public static final int end = 23 ;
 	};
 
 
 	public static class _altova_mi_altova_tasknameType {
 		public static final int begin = _altova_mi_altova_taskidType.end ;
 		public static final int _unnamed = _altova_mi_altova_tasknameType.begin ;
-		public static final int end = 23 ;
+		public static final int end = 24 ;
 	};
 
 
 	public static class _altova_mi_altova_stepType {
 		public static final int begin = _altova_mi_altova_tasknameType.end ;
 		public static final int _unnamed = _altova_mi_altova_stepType.begin ;
-		public static final int end = 24 ;
+		public static final int end = 25 ;
 	};
 
 
 	public static class _altova_mi_altova_useridType {
 		public static final int begin = _altova_mi_altova_stepType.end ;
 		public static final int _unnamed = _altova_mi_altova_useridType.begin ;
-		public static final int end = 25 ;
+		public static final int end = 26 ;
 	};
 
 
@@ -261,7 +275,7 @@ public class cbody_TypeInfo
 	public static class _altova_mi_xs_altova_anyType {
 		public static final int begin = _altova_mi_xs_altova_anySimpleType.end ;
 		public static final int _unnamed = _altova_mi_xs_altova_anyType.begin ;
-		public static final int end = 26 ;
+		public static final int end = 27 ;
 	};
 
 
@@ -462,13 +476,6 @@ public class cbody_TypeInfo
 		public static final int end = _altova_mi_xs_altova_unsignedShort.begin ;
 	};
 
-
-	public static class _altova_mi_xs_altova_booleanType {
-		public static final int begin = _altova_mi_xs_altova_unsignedShort.end ;
-		public static final int _unnamed = _altova_mi_xs_altova_booleanType.begin ;
-		public static final int end = 27 ;
-	};
-
 	
 
 	public static class InfoBinder implements InfoBinderInterface
@@ -495,52 +502,49 @@ public class cbody_TypeInfo
 	{
 		private void initTypes0(InfoBinderInterface binder, TypeInfo[] types) {
 			types[0] = new TypeInfo( binder, _altova_ni, "cbody", 0, _altova_mi_altova_cbody2.begin, _altova_mi_altova_cbody2.end,  null, 				WhitespaceType.Whitespace_Unknown );
-			types[1] = new TypeInfo( binder, _altova_ni, "", 0, _altova_mi_altova_completedType.begin, _altova_mi_altova_completedType.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[2] = new TypeInfo( binder, _altova_ni, "", _altova_ti_xs_altova_string2, _altova_mi_altova_completedType2.begin, _altova_mi_altova_completedType2.end,  
-				new FacetInfo[]
-				{
-					new FacetInfo (com.altova.xml.XsValidation.facetCheck_string_enumeration, "enumeration", "2016-01-01 10:00:00", 0 ), 
-				},
-				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[3] = new TypeInfo( binder, _altova_ni, "", _altova_ti_xs_altova_anyType, _altova_mi_altova_detailsType.begin, _altova_mi_altova_detailsType.end,  null, 				WhitespaceType.Whitespace_Unknown );
-			types[4] = new TypeInfo( binder, _altova_ni, "", _altova_ti_xs_altova_anyType, _altova_mi_altova_stepsType.begin, _altova_mi_altova_stepsType.end,  null, 				WhitespaceType.Whitespace_Unknown );
-			types[5] = new TypeInfo( binder, _altova_ni, "", _altova_ti_xs_altova_anyType, _altova_mi_altova_nextstepType.begin, _altova_mi_altova_nextstepType.end,  null, 				WhitespaceType.Whitespace_Unknown );
-			types[6] = new TypeInfo( binder, _altova_ni, "", 0, _altova_mi_altova_procidinstanceType.begin, _altova_mi_altova_procidinstanceType.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[7] = new TypeInfo( binder, _altova_ni, "", 0, _altova_mi_altova_taskidType.begin, _altova_mi_altova_taskidType.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[8] = new TypeInfo( binder, _altova_ni, "", 0, _altova_mi_altova_tasknameType.begin, _altova_mi_altova_tasknameType.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[9] = new TypeInfo( binder, _altova_ni, "", 0, _altova_mi_altova_stepType.begin, _altova_mi_altova_stepType.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[10] = new TypeInfo( binder, _altova_ni, "", 0, _altova_mi_altova_useridType.begin, _altova_mi_altova_useridType.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
+			types[1] = new TypeInfo( binder, _altova_ni, "", 0, _altova_mi_altova_bflagType.begin, _altova_mi_altova_bflagType.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
+			types[2] = new TypeInfo( binder, _altova_ni, "", _altova_ti_xs_altova_string2, _altova_mi_altova_bflagType2.begin, _altova_mi_altova_bflagType2.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
+			types[3] = new TypeInfo( binder, _altova_ni, "", 0, _altova_mi_altova_completedType.begin, _altova_mi_altova_completedType.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
+			types[4] = new TypeInfo( binder, _altova_ni, "", _altova_ti_xs_altova_string2, _altova_mi_altova_completedType2.begin, _altova_mi_altova_completedType2.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
+			types[5] = new TypeInfo( binder, _altova_ni, "", _altova_ti_xs_altova_anyType, _altova_mi_altova_detailsType.begin, _altova_mi_altova_detailsType.end,  null, 				WhitespaceType.Whitespace_Unknown );
+			types[6] = new TypeInfo( binder, _altova_ni, "", _altova_ti_xs_altova_anyType, _altova_mi_altova_stepsType.begin, _altova_mi_altova_stepsType.end,  null, 				WhitespaceType.Whitespace_Unknown );
+			types[7] = new TypeInfo( binder, _altova_ni, "", _altova_ti_xs_altova_anyType, _altova_mi_altova_nextstepType.begin, _altova_mi_altova_nextstepType.end,  null, 				WhitespaceType.Whitespace_Unknown );
+			types[8] = new TypeInfo( binder, _altova_ni, "", 0, _altova_mi_altova_procidinstanceType.begin, _altova_mi_altova_procidinstanceType.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
+			types[9] = new TypeInfo( binder, _altova_ni, "", 0, _altova_mi_altova_taskidType.begin, _altova_mi_altova_taskidType.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
+			types[10] = new TypeInfo( binder, _altova_ni, "", 0, _altova_mi_altova_tasknameType.begin, _altova_mi_altova_tasknameType.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
+			types[11] = new TypeInfo( binder, _altova_ni, "", 0, _altova_mi_altova_stepType.begin, _altova_mi_altova_stepType.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
+			types[12] = new TypeInfo( binder, _altova_ni, "", 0, _altova_mi_altova_useridType.begin, _altova_mi_altova_useridType.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
 
-			types[11] = new TypeInfo( binder, _altova_ni_xs, "ENTITIES", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_ENTITIES.begin, _altova_mi_xs_altova_ENTITIES.end,  
+			types[13] = new TypeInfo( binder, _altova_ni_xs, "ENTITIES", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_ENTITIES.begin, _altova_mi_xs_altova_ENTITIES.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "collapse", 0 ),
 					new FacetInfo (null, "minLength", "1", 1 ), 
 				},
 				WhitespaceType.Whitespace_Collapse, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[12] = new TypeInfo( binder, _altova_ni_xs, "ENTITY", _altova_ti_xs_altova_NCName, _altova_mi_xs_altova_ENTITY.begin, _altova_mi_xs_altova_ENTITY.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[13] = new TypeInfo( binder, _altova_ni_xs, "ID", _altova_ti_xs_altova_NCName, _altova_mi_xs_altova_ID.begin, _altova_mi_xs_altova_ID.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[14] = new TypeInfo( binder, _altova_ni_xs, "IDREF", _altova_ti_xs_altova_NCName, _altova_mi_xs_altova_IDREF.begin, _altova_mi_xs_altova_IDREF.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[15] = new TypeInfo( binder, _altova_ni_xs, "IDREFS", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_IDREFS.begin, _altova_mi_xs_altova_IDREFS.end,  
+			types[14] = new TypeInfo( binder, _altova_ni_xs, "ENTITY", _altova_ti_xs_altova_NCName, _altova_mi_xs_altova_ENTITY.begin, _altova_mi_xs_altova_ENTITY.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
+			types[15] = new TypeInfo( binder, _altova_ni_xs, "ID", _altova_ti_xs_altova_NCName, _altova_mi_xs_altova_ID.begin, _altova_mi_xs_altova_ID.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
+			types[16] = new TypeInfo( binder, _altova_ni_xs, "IDREF", _altova_ti_xs_altova_NCName, _altova_mi_xs_altova_IDREF.begin, _altova_mi_xs_altova_IDREF.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
+			types[17] = new TypeInfo( binder, _altova_ni_xs, "IDREFS", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_IDREFS.begin, _altova_mi_xs_altova_IDREFS.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "collapse", 0 ),
 					new FacetInfo (null, "minLength", "1", 1 ), 
 				},
 				WhitespaceType.Whitespace_Collapse, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[16] = new TypeInfo( binder, _altova_ni_xs, "NCName", _altova_ti_xs_altova_Name, _altova_mi_xs_altova_NCName.begin, _altova_mi_xs_altova_NCName.end,  
+			types[18] = new TypeInfo( binder, _altova_ni_xs, "NCName", _altova_ti_xs_altova_Name, _altova_mi_xs_altova_NCName.begin, _altova_mi_xs_altova_NCName.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "pattern", "[\\i-[:]][\\c-[:]]*", 0 ), 
 				},
 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[17] = new TypeInfo( binder, _altova_ni_xs, "NMTOKEN", _altova_ti_xs_altova_token, _altova_mi_xs_altova_NMTOKEN.begin, _altova_mi_xs_altova_NMTOKEN.end,  
+			types[19] = new TypeInfo( binder, _altova_ni_xs, "NMTOKEN", _altova_ti_xs_altova_token, _altova_mi_xs_altova_NMTOKEN.begin, _altova_mi_xs_altova_NMTOKEN.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "pattern", "\\c+", 0 ), 
 				},
 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[18] = new TypeInfo( binder, _altova_ni_xs, "NMTOKENS", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_NMTOKENS.begin, _altova_mi_xs_altova_NMTOKENS.end,  
+			types[20] = new TypeInfo( binder, _altova_ni_xs, "NMTOKENS", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_NMTOKENS.begin, _altova_mi_xs_altova_NMTOKENS.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "collapse", 0 ),
@@ -549,236 +553,235 @@ public class cbody_TypeInfo
 					new FacetInfo (null, "pattern", "\\c+", 0 ), 
 				},
 				WhitespaceType.Whitespace_Collapse, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[19] = new TypeInfo( binder, _altova_ni_xs, "NOTATION", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_NOTATION.begin, _altova_mi_xs_altova_NOTATION.end,  
+			types[21] = new TypeInfo( binder, _altova_ni_xs, "NOTATION", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_NOTATION.begin, _altova_mi_xs_altova_NOTATION.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "collapse", 0 ),
 				},
 				WhitespaceType.Whitespace_Collapse, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[20] = new TypeInfo( binder, _altova_ni_xs, "Name", _altova_ti_xs_altova_token, _altova_mi_xs_altova_Name.begin, _altova_mi_xs_altova_Name.end,  
+			types[22] = new TypeInfo( binder, _altova_ni_xs, "Name", _altova_ti_xs_altova_token, _altova_mi_xs_altova_Name.begin, _altova_mi_xs_altova_Name.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "pattern", "\\i\\c*", 0 ), 
 				},
 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[21] = new TypeInfo( binder, _altova_ni_xs, "QName", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_QName.begin, _altova_mi_xs_altova_QName.end,  
+			types[23] = new TypeInfo( binder, _altova_ni_xs, "QName", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_QName.begin, _altova_mi_xs_altova_QName.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "collapse", 0 ),
 				},
 				WhitespaceType.Whitespace_Collapse, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[22] = new TypeInfo( binder, _altova_ni_xs, "anySimpleType", 0, _altova_mi_xs_altova_anySimpleType.begin, _altova_mi_xs_altova_anySimpleType.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[23] = new TypeInfo( binder, _altova_ni_xs, "anyType", 0, _altova_mi_xs_altova_anyType.begin, _altova_mi_xs_altova_anyType.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[24] = new TypeInfo( binder, _altova_ni_xs, "anyURI", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_anyURI.begin, _altova_mi_xs_altova_anyURI.end,  
+			types[24] = new TypeInfo( binder, _altova_ni_xs, "anySimpleType", 0, _altova_mi_xs_altova_anySimpleType.begin, _altova_mi_xs_altova_anySimpleType.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
+			types[25] = new TypeInfo( binder, _altova_ni_xs, "anyType", 0, _altova_mi_xs_altova_anyType.begin, _altova_mi_xs_altova_anyType.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
+			types[26] = new TypeInfo( binder, _altova_ni_xs, "anyURI", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_anyURI.begin, _altova_mi_xs_altova_anyURI.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "collapse", 0 ),
 				},
 				WhitespaceType.Whitespace_Collapse, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[25] = new TypeInfo( binder, _altova_ni_xs, "base64Binary", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_base64Binary.begin, _altova_mi_xs_altova_base64Binary.end,  
+			types[27] = new TypeInfo( binder, _altova_ni_xs, "base64Binary", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_base64Binary.begin, _altova_mi_xs_altova_base64Binary.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "collapse", 0 ),
 				},
 				WhitespaceType.Whitespace_Collapse, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[26] = new TypeInfo( binder, _altova_ni_xs, "boolean", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_boolean2.begin, _altova_mi_xs_altova_boolean2.end,  
+			types[28] = new TypeInfo( binder, _altova_ni_xs, "boolean", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_boolean2.begin, _altova_mi_xs_altova_boolean2.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "collapse", 0 ),
 				},
 				WhitespaceType.Whitespace_Collapse, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[27] = new TypeInfo( binder, _altova_ni_xs, "byte", _altova_ti_xs_altova_short2, _altova_mi_xs_altova_byte2.begin, _altova_mi_xs_altova_byte2.end,  
+			types[29] = new TypeInfo( binder, _altova_ni_xs, "byte", _altova_ti_xs_altova_short2, _altova_mi_xs_altova_byte2.begin, _altova_mi_xs_altova_byte2.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "minInclusive", "-128", 0 ), 
 					new FacetInfo (null, "maxInclusive", "127", 0 ), 
 				},
 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.IntegerFormatter );
-			types[28] = new TypeInfo( binder, _altova_ni_xs, "date", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_date.begin, _altova_mi_xs_altova_date.end,  
+			types[30] = new TypeInfo( binder, _altova_ni_xs, "date", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_date.begin, _altova_mi_xs_altova_date.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "collapse", 0 ),
 				},
 				WhitespaceType.Whitespace_Collapse, com.altova.xml.Xs.DateFormatter );
-			types[29] = new TypeInfo( binder, _altova_ni_xs, "dateTime", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_dateTime.begin, _altova_mi_xs_altova_dateTime.end,  
+			types[31] = new TypeInfo( binder, _altova_ni_xs, "dateTime", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_dateTime.begin, _altova_mi_xs_altova_dateTime.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "collapse", 0 ),
 				},
 				WhitespaceType.Whitespace_Collapse, com.altova.xml.Xs.DateTimeFormatter );
-			types[30] = new TypeInfo( binder, _altova_ni_xs, "decimal", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_decimal.begin, _altova_mi_xs_altova_decimal.end,  
+			types[32] = new TypeInfo( binder, _altova_ni_xs, "decimal", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_decimal.begin, _altova_mi_xs_altova_decimal.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "collapse", 0 ),
 				},
 				WhitespaceType.Whitespace_Collapse, com.altova.xml.Xs.DecimalFormatter );
-			types[31] = new TypeInfo( binder, _altova_ni_xs, "double", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_double2.begin, _altova_mi_xs_altova_double2.end,  
+			types[33] = new TypeInfo( binder, _altova_ni_xs, "double", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_double2.begin, _altova_mi_xs_altova_double2.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "collapse", 0 ),
 				},
 				WhitespaceType.Whitespace_Collapse, com.altova.xml.Xs.DoubleFormatter );
-			types[32] = new TypeInfo( binder, _altova_ni_xs, "duration", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_duration.begin, _altova_mi_xs_altova_duration.end,  
+			types[34] = new TypeInfo( binder, _altova_ni_xs, "duration", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_duration.begin, _altova_mi_xs_altova_duration.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "collapse", 0 ),
 				},
 				WhitespaceType.Whitespace_Collapse, com.altova.xml.Xs.DurationFormatter );
-			types[33] = new TypeInfo( binder, _altova_ni_xs, "float", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_float2.begin, _altova_mi_xs_altova_float2.end,  
+			types[35] = new TypeInfo( binder, _altova_ni_xs, "float", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_float2.begin, _altova_mi_xs_altova_float2.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "collapse", 0 ),
 				},
 				WhitespaceType.Whitespace_Collapse, com.altova.xml.Xs.DoubleFormatter );
-			types[34] = new TypeInfo( binder, _altova_ni_xs, "gDay", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_gDay.begin, _altova_mi_xs_altova_gDay.end,  
+			types[36] = new TypeInfo( binder, _altova_ni_xs, "gDay", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_gDay.begin, _altova_mi_xs_altova_gDay.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "collapse", 0 ),
 				},
 				WhitespaceType.Whitespace_Collapse, com.altova.xml.Xs.GDayFormatter );
-			types[35] = new TypeInfo( binder, _altova_ni_xs, "gMonth", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_gMonth.begin, _altova_mi_xs_altova_gMonth.end,  
+			types[37] = new TypeInfo( binder, _altova_ni_xs, "gMonth", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_gMonth.begin, _altova_mi_xs_altova_gMonth.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "collapse", 0 ),
 				},
 				WhitespaceType.Whitespace_Collapse, com.altova.xml.Xs.GMonthFormatter );
-			types[36] = new TypeInfo( binder, _altova_ni_xs, "gMonthDay", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_gMonthDay.begin, _altova_mi_xs_altova_gMonthDay.end,  
+			types[38] = new TypeInfo( binder, _altova_ni_xs, "gMonthDay", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_gMonthDay.begin, _altova_mi_xs_altova_gMonthDay.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "collapse", 0 ),
 				},
 				WhitespaceType.Whitespace_Collapse, com.altova.xml.Xs.GMonthDayFormatter );
-			types[37] = new TypeInfo( binder, _altova_ni_xs, "gYear", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_gYear.begin, _altova_mi_xs_altova_gYear.end,  
+			types[39] = new TypeInfo( binder, _altova_ni_xs, "gYear", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_gYear.begin, _altova_mi_xs_altova_gYear.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "collapse", 0 ),
 				},
 				WhitespaceType.Whitespace_Collapse, com.altova.xml.Xs.GYearFormatter );
-			types[38] = new TypeInfo( binder, _altova_ni_xs, "gYearMonth", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_gYearMonth.begin, _altova_mi_xs_altova_gYearMonth.end,  
+			types[40] = new TypeInfo( binder, _altova_ni_xs, "gYearMonth", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_gYearMonth.begin, _altova_mi_xs_altova_gYearMonth.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "collapse", 0 ),
 				},
 				WhitespaceType.Whitespace_Collapse, com.altova.xml.Xs.GYearMonthFormatter );
-			types[39] = new TypeInfo( binder, _altova_ni_xs, "hexBinary", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_hexBinary.begin, _altova_mi_xs_altova_hexBinary.end,  
+			types[41] = new TypeInfo( binder, _altova_ni_xs, "hexBinary", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_hexBinary.begin, _altova_mi_xs_altova_hexBinary.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "collapse", 0 ),
 				},
 				WhitespaceType.Whitespace_Collapse, com.altova.xml.Xs.HexBinaryFormatter );
-			types[40] = new TypeInfo( binder, _altova_ni_xs, "int", _altova_ti_xs_altova_long2, _altova_mi_xs_altova_int2.begin, _altova_mi_xs_altova_int2.end,  
+			types[42] = new TypeInfo( binder, _altova_ni_xs, "int", _altova_ti_xs_altova_long2, _altova_mi_xs_altova_int2.begin, _altova_mi_xs_altova_int2.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "minInclusive", "-2147483648", 0 ), 
 					new FacetInfo (null, "maxInclusive", "2147483647", 0 ), 
 				},
 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.IntegerFormatter );
-			types[41] = new TypeInfo( binder, _altova_ni_xs, "integer", _altova_ti_xs_altova_decimal, _altova_mi_xs_altova_integer.begin, _altova_mi_xs_altova_integer.end,  
+			types[43] = new TypeInfo( binder, _altova_ni_xs, "integer", _altova_ti_xs_altova_decimal, _altova_mi_xs_altova_integer.begin, _altova_mi_xs_altova_integer.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "fractionDigits", "0", 0 ), 
 					new FacetInfo (null, "pattern", "[\\-+]?[0-9]+", 0 ), 
 				},
 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.IntegerFormatter );
-			types[42] = new TypeInfo( binder, _altova_ni_xs, "language", _altova_ti_xs_altova_token, _altova_mi_xs_altova_language.begin, _altova_mi_xs_altova_language.end,  
+			types[44] = new TypeInfo( binder, _altova_ni_xs, "language", _altova_ti_xs_altova_token, _altova_mi_xs_altova_language.begin, _altova_mi_xs_altova_language.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "pattern", "[a-zA-Z]{1,8}(-[a-zA-Z0-9]{1,8})*", 0 ), 
 				},
 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[43] = new TypeInfo( binder, _altova_ni_xs, "long", _altova_ti_xs_altova_integer, _altova_mi_xs_altova_long2.begin, _altova_mi_xs_altova_long2.end,  
+			types[45] = new TypeInfo( binder, _altova_ni_xs, "long", _altova_ti_xs_altova_integer, _altova_mi_xs_altova_long2.begin, _altova_mi_xs_altova_long2.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "minInclusive", "-9223372036854775808", 0 ), 
 					new FacetInfo (null, "maxInclusive", "9223372036854775807", 0 ), 
 				},
 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.IntegerFormatter );
-			types[44] = new TypeInfo( binder, _altova_ni_xs, "negativeInteger", _altova_ti_xs_altova_nonPositiveInteger, _altova_mi_xs_altova_negativeInteger.begin, _altova_mi_xs_altova_negativeInteger.end,  
+			types[46] = new TypeInfo( binder, _altova_ni_xs, "negativeInteger", _altova_ti_xs_altova_nonPositiveInteger, _altova_mi_xs_altova_negativeInteger.begin, _altova_mi_xs_altova_negativeInteger.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "maxInclusive", "-1", 0 ), 
 				},
 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.IntegerFormatter );
-			types[45] = new TypeInfo( binder, _altova_ni_xs, "nonNegativeInteger", _altova_ti_xs_altova_integer, _altova_mi_xs_altova_nonNegativeInteger.begin, _altova_mi_xs_altova_nonNegativeInteger.end,  
+			types[47] = new TypeInfo( binder, _altova_ni_xs, "nonNegativeInteger", _altova_ti_xs_altova_integer, _altova_mi_xs_altova_nonNegativeInteger.begin, _altova_mi_xs_altova_nonNegativeInteger.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "minInclusive", "0", 0 ), 
 				},
 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.IntegerFormatter );
-			types[46] = new TypeInfo( binder, _altova_ni_xs, "nonPositiveInteger", _altova_ti_xs_altova_integer, _altova_mi_xs_altova_nonPositiveInteger.begin, _altova_mi_xs_altova_nonPositiveInteger.end,  
+			types[48] = new TypeInfo( binder, _altova_ni_xs, "nonPositiveInteger", _altova_ti_xs_altova_integer, _altova_mi_xs_altova_nonPositiveInteger.begin, _altova_mi_xs_altova_nonPositiveInteger.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "maxInclusive", "0", 0 ), 
 				},
 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.IntegerFormatter );
-			types[47] = new TypeInfo( binder, _altova_ni_xs, "normalizedString", _altova_ti_xs_altova_string2, _altova_mi_xs_altova_normalizedString.begin, _altova_mi_xs_altova_normalizedString.end,  
+			types[49] = new TypeInfo( binder, _altova_ni_xs, "normalizedString", _altova_ti_xs_altova_string2, _altova_mi_xs_altova_normalizedString.begin, _altova_mi_xs_altova_normalizedString.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "replace", 0 ),
 				},
 				WhitespaceType.Whitespace_Replace, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[48] = new TypeInfo( binder, _altova_ni_xs, "positiveInteger", _altova_ti_xs_altova_nonNegativeInteger, _altova_mi_xs_altova_positiveInteger.begin, _altova_mi_xs_altova_positiveInteger.end,  
+			types[50] = new TypeInfo( binder, _altova_ni_xs, "positiveInteger", _altova_ti_xs_altova_nonNegativeInteger, _altova_mi_xs_altova_positiveInteger.begin, _altova_mi_xs_altova_positiveInteger.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "minInclusive", "1", 0 ), 
 				},
 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.IntegerFormatter );
-			types[49] = new TypeInfo( binder, _altova_ni_xs, "short", _altova_ti_xs_altova_int2, _altova_mi_xs_altova_short2.begin, _altova_mi_xs_altova_short2.end,  
+			types[51] = new TypeInfo( binder, _altova_ni_xs, "short", _altova_ti_xs_altova_int2, _altova_mi_xs_altova_short2.begin, _altova_mi_xs_altova_short2.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "minInclusive", "-32768", 0 ), 
 					new FacetInfo (null, "maxInclusive", "32767", 0 ), 
 				},
 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.IntegerFormatter );
-			types[50] = new TypeInfo( binder, _altova_ni_xs, "string", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_string2.begin, _altova_mi_xs_altova_string2.end,  
+			types[52] = new TypeInfo( binder, _altova_ni_xs, "string", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_string2.begin, _altova_mi_xs_altova_string2.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "preserve", 0 ),
 				},
 				WhitespaceType.Whitespace_Preserve, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[51] = new TypeInfo( binder, _altova_ni_xs, "time", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_time.begin, _altova_mi_xs_altova_time.end,  
+			types[53] = new TypeInfo( binder, _altova_ni_xs, "time", _altova_ti_xs_altova_anySimpleType, _altova_mi_xs_altova_time.begin, _altova_mi_xs_altova_time.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "collapse", 0 ),
 				},
 				WhitespaceType.Whitespace_Collapse, com.altova.xml.Xs.TimeFormatter );
-			types[52] = new TypeInfo( binder, _altova_ni_xs, "token", _altova_ti_xs_altova_normalizedString, _altova_mi_xs_altova_token.begin, _altova_mi_xs_altova_token.end,  
+			types[54] = new TypeInfo( binder, _altova_ni_xs, "token", _altova_ti_xs_altova_normalizedString, _altova_mi_xs_altova_token.begin, _altova_mi_xs_altova_token.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "whitespace", "collapse", 0 ),
 				},
 				WhitespaceType.Whitespace_Collapse, com.altova.xml.Xs.AnySimpleTypeFormatter );
-			types[53] = new TypeInfo( binder, _altova_ni_xs, "unsignedByte", _altova_ti_xs_altova_unsignedShort, _altova_mi_xs_altova_unsignedByte.begin, _altova_mi_xs_altova_unsignedByte.end,  
+			types[55] = new TypeInfo( binder, _altova_ni_xs, "unsignedByte", _altova_ti_xs_altova_unsignedShort, _altova_mi_xs_altova_unsignedByte.begin, _altova_mi_xs_altova_unsignedByte.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "maxInclusive", "255", 0 ), 
 				},
 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.IntegerFormatter );
-			types[54] = new TypeInfo( binder, _altova_ni_xs, "unsignedInt", _altova_ti_xs_altova_unsignedLong, _altova_mi_xs_altova_unsignedInt.begin, _altova_mi_xs_altova_unsignedInt.end,  
+			types[56] = new TypeInfo( binder, _altova_ni_xs, "unsignedInt", _altova_ti_xs_altova_unsignedLong, _altova_mi_xs_altova_unsignedInt.begin, _altova_mi_xs_altova_unsignedInt.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "maxInclusive", "4294967295", 0 ), 
 				},
 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.IntegerFormatter );
-			types[55] = new TypeInfo( binder, _altova_ni_xs, "unsignedLong", _altova_ti_xs_altova_nonNegativeInteger, _altova_mi_xs_altova_unsignedLong.begin, _altova_mi_xs_altova_unsignedLong.end,  
+			types[57] = new TypeInfo( binder, _altova_ni_xs, "unsignedLong", _altova_ti_xs_altova_nonNegativeInteger, _altova_mi_xs_altova_unsignedLong.begin, _altova_mi_xs_altova_unsignedLong.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "maxInclusive", "18446744073709551615", 0 ), 
 				},
 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.IntegerFormatter );
-			types[56] = new TypeInfo( binder, _altova_ni_xs, "unsignedShort", _altova_ti_xs_altova_unsignedInt, _altova_mi_xs_altova_unsignedShort.begin, _altova_mi_xs_altova_unsignedShort.end,  
+			types[58] = new TypeInfo( binder, _altova_ni_xs, "unsignedShort", _altova_ti_xs_altova_unsignedInt, _altova_mi_xs_altova_unsignedShort.begin, _altova_mi_xs_altova_unsignedShort.end,  
 				new FacetInfo[]
 				{
 					new FacetInfo (null, "maxInclusive", "65535", 0 ), 
 				},
 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.IntegerFormatter );
-			types[57] = new TypeInfo( binder, _altova_ni_xs, "", 0, _altova_mi_xs_altova_booleanType.begin, _altova_mi_xs_altova_booleanType.end,  null, 				WhitespaceType.Whitespace_Unknown, com.altova.xml.Xs.AnySimpleTypeFormatter );
 
 		}
 
 		public TypeInfo[] createTypes(InfoBinderInterface binder) {
 
-			TypeInfo types[] = new TypeInfo[58];
+			TypeInfo types[] = new TypeInfo[59];
 
 			initTypes0(binder, types);
 			
@@ -793,7 +796,7 @@ public class cbody_TypeInfo
 	private static class MemberInfoCreator
 	{
 		private void initMembers0(InfoBinderInterface binder, MemberInfo[] members) {
-			members[0] = new MemberInfo (binder, "", "bflag", _altova_ti_altova_cbody2, _altova_ti_xs_altova_booleanType, 0, 0, 1);
+			members[0] = new MemberInfo (binder, "", "bflag", _altova_ti_altova_cbody2, _altova_ti_altova_bflagType, 0, 0, 1);
 			members[1] = new MemberInfo (binder, "", "completed", _altova_ti_altova_cbody2, _altova_ti_altova_completedType, 0, 0, 1);
 			members[2] = new MemberInfo (binder, "", "details", _altova_ti_altova_cbody2, _altova_ti_altova_detailsType, 0, 0, 1);
 			members[3] = new MemberInfo (binder, "", "nextstep", _altova_ti_altova_cbody2, _altova_ti_altova_nextstepType, 0, 0, 1);
@@ -804,33 +807,33 @@ public class cbody_TypeInfo
 			members[8] = new MemberInfo (binder, "", "taskname", _altova_ti_altova_cbody2, _altova_ti_altova_tasknameType, 0, 0, 1);
 			members[9] = new MemberInfo (binder, "", "userid", _altova_ti_altova_cbody2, _altova_ti_altova_useridType, 0, 0, 1);
 
-			members[10] = new MemberInfo (binder, "", "", _altova_ti_altova_completedType, _altova_ti_altova_completedType2, 0|MemberInfo.IS_ATTRIBUTE, 1, 1);
+			members[10] = new MemberInfo (binder, "", "", _altova_ti_altova_bflagType, _altova_ti_altova_bflagType2, 0|MemberInfo.IS_ATTRIBUTE, 1, 1);
 
-			members[11] = new MemberInfo (binder, "", "steps", _altova_ti_altova_detailsType, _altova_ti_altova_stepsType, 0, 1, 1);
+			members[11] = new MemberInfo (binder, "", "", _altova_ti_altova_completedType, _altova_ti_altova_completedType2, 0|MemberInfo.IS_ATTRIBUTE, 1, 1);
 
-			members[12] = new MemberInfo (binder, "", "nextstep", _altova_ti_altova_stepsType, _altova_ti_altova_nextstepType, 0, 1, -1);
+			members[12] = new MemberInfo (binder, "", "steps", _altova_ti_altova_detailsType, _altova_ti_altova_stepsType, 0, 1, 1);
 
-			members[13] = new MemberInfo (binder, "", "procidinstance", _altova_ti_altova_nextstepType, _altova_ti_altova_procidinstanceType, 0, 1, 1);
-			members[14] = new MemberInfo (binder, "", "taskid", _altova_ti_altova_nextstepType, _altova_ti_altova_taskidType, 0, 1, 1);
-			members[15] = new MemberInfo (binder, "", "taskname", _altova_ti_altova_nextstepType, _altova_ti_altova_tasknameType, 0, 1, 1);
-			members[16] = new MemberInfo (binder, "", "step", _altova_ti_altova_nextstepType, _altova_ti_altova_stepType, 0, 1, 1);
-			members[17] = new MemberInfo (binder, "", "userid", _altova_ti_altova_nextstepType, _altova_ti_altova_useridType, 0, 1, 1);
-			members[18] = new MemberInfo (binder, "", "bflag", _altova_ti_altova_nextstepType, _altova_ti_xs_altova_booleanType, 0, 1, 1);
-			members[19] = new MemberInfo (binder, "", "completed", _altova_ti_altova_nextstepType, _altova_ti_altova_completedType, 0, 1, 1);
+			members[13] = new MemberInfo (binder, "", "nextstep", _altova_ti_altova_stepsType, _altova_ti_altova_nextstepType, 0, 1, -1);
 
-			members[20] = new MemberInfo (binder, "", "", _altova_ti_altova_procidinstanceType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
+			members[14] = new MemberInfo (binder, "", "procidinstance", _altova_ti_altova_nextstepType, _altova_ti_altova_procidinstanceType, 0, 1, 1);
+			members[15] = new MemberInfo (binder, "", "taskid", _altova_ti_altova_nextstepType, _altova_ti_altova_taskidType, 0, 1, 1);
+			members[16] = new MemberInfo (binder, "", "taskname", _altova_ti_altova_nextstepType, _altova_ti_altova_tasknameType, 0, 1, 1);
+			members[17] = new MemberInfo (binder, "", "step", _altova_ti_altova_nextstepType, _altova_ti_altova_stepType, 0, 1, 1);
+			members[18] = new MemberInfo (binder, "", "userid", _altova_ti_altova_nextstepType, _altova_ti_altova_useridType, 0, 1, 1);
+			members[19] = new MemberInfo (binder, "", "bflag", _altova_ti_altova_nextstepType, _altova_ti_altova_bflagType, 0, 1, 1);
+			members[20] = new MemberInfo (binder, "", "completed", _altova_ti_altova_nextstepType, _altova_ti_altova_completedType, 0, 1, 1);
 
-			members[21] = new MemberInfo (binder, "", "", _altova_ti_altova_taskidType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
+			members[21] = new MemberInfo (binder, "", "", _altova_ti_altova_procidinstanceType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
 
-			members[22] = new MemberInfo (binder, "", "", _altova_ti_altova_tasknameType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
+			members[22] = new MemberInfo (binder, "", "", _altova_ti_altova_taskidType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
 
-			members[23] = new MemberInfo (binder, "", "", _altova_ti_altova_stepType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
+			members[23] = new MemberInfo (binder, "", "", _altova_ti_altova_tasknameType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
 
-			members[24] = new MemberInfo (binder, "", "", _altova_ti_altova_useridType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
+			members[24] = new MemberInfo (binder, "", "", _altova_ti_altova_stepType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
 
-			members[25] = new MemberInfo (binder, "", "", _altova_ti_xs_altova_anyType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
+			members[25] = new MemberInfo (binder, "", "", _altova_ti_altova_useridType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
 
-			members[26] = new MemberInfo (binder, "", "", _altova_ti_xs_altova_booleanType, _altova_ti_xs_altova_boolean2, 0|MemberInfo.IS_ATTRIBUTE, 1, 1);
+			members[26] = new MemberInfo (binder, "", "", _altova_ti_xs_altova_anyType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
 
 		}
 

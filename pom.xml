@@ -4,7 +4,7 @@
   <groupId>org.jml.utils</groupId>
   <artifactId>cbody</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>cbody</name>
   <url>http://maven.apache.org</url>
   <dependencies>
