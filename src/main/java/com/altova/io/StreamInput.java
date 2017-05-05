@@ -17,4 +17,18 @@ public class StreamInput extends Input
 	
 	public InputStream getStream() {return stream;}
 	public void close() throws Exception {stream.close();}
+	
+	static public StreamInput createInput(String u) throws Exception
+	{
+		if (u.trim().indexOf(':') > 1)
+		{
+			java.net.URL url = new java.net.URL(u);
+			
+			if ("file".equals(url.getProtocol()))
+				return new FileInput(url.getPath());
+			return new UrlInput(u);
+		}
+			
+		return new FileInput(u);
+	}
 }

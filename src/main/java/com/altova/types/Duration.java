@@ -4,8 +4,6 @@
 
 package com.altova.types;
 
-import java.lang.*;
-import java.util.Date;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 

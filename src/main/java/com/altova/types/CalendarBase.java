@@ -5,12 +5,9 @@
 
 package com.altova.types;
 
-import java.lang.*;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.text.SimpleDateFormat;
-import java.util.Date;
-
 
 public abstract class CalendarBase 
 {

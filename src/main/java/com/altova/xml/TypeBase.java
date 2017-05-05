@@ -4,13 +4,10 @@
 package com.altova.xml;
 
 import org.w3c.dom.Attr;
-import org.w3c.dom.Node;
-import org.w3c.dom.Element;
-import org.w3c.dom.Text;
 import org.w3c.dom.Document;
-
-import java.math.BigInteger;
-import java.math.BigDecimal;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.Text;
 
 import com.altova.typeinfo.MemberInfo;
 
@@ -170,5 +167,17 @@ public class TypeBase
 		if (nodeURI.equals(memberURI) && nodeLocalName.equals(memberLocalName))
 			return true;
 		return false;
+	}
+	
+	public static int getEnumerationIndex( MemberInfo member, String value, int enumOffset, int enumCount)
+	{
+		for( int i = enumOffset; i < (enumOffset + enumCount); i++)
+		{
+			if( member.getDataType().facets[i].facetName.equals( "enumeration") &&
+				member.getDataType().facets[i].stringValue.equals( value) )
+					return i - enumOffset;
+		}
+		
+		return -1;
 	}
 }

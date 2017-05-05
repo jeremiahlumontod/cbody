@@ -3,10 +3,7 @@
 
 package com.altova.types;
 
-import java.lang.*;
 import java.util.Calendar;
-import java.util.SimpleTimeZone;
-import java.util.TimeZone;
 
 public class DateTime extends CalendarBase 
 {

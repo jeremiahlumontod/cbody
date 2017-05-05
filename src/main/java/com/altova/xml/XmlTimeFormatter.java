@@ -3,9 +3,7 @@
 
 package com.altova.xml;
 
-import com.altova.CoreTypes;
-import com.altova.types.*;
-import com.altova.typeinfo.ValueFormatter;
+import com.altova.types.DateTime;
 
 public class XmlTimeFormatter extends XmlFormatter
 {

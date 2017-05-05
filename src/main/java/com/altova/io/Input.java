@@ -20,4 +20,5 @@ public class Input
 	public java.io.InputStream getStream() {return null;} 
 	public org.w3c.dom.Document getDocument() {return null;}
 	public void close() throws Exception {}
+	public String getFilename() {return "";}
 }

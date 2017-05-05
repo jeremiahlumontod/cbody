@@ -394,7 +394,7 @@ public class XmlTreeOperations
         String value = getTextValue(node);
         int i = value.indexOf(':');
         if (i == -1)
-            return com.altova.CoreTypes.castToQName(value);
+            return new javax.xml.namespace.QName(node.lookupNamespaceURI(null), value);
         
         String prefix = value.substring(0, i);
         String local = value.substring(i+1);
