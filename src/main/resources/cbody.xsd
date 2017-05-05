@@ -48,6 +48,7 @@
 				<xs:element ref="userid"/>
 				<xs:element ref="bflag"/>
 				<xs:element ref="completed"/>
+				<xs:element ref="description"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
