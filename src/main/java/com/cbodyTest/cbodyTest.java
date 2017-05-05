@@ -18,35 +18,22 @@ import com.altova.types.*;
 import com.cbody.*;
 
 public class cbodyTest {
-	protected static void example() throws Exception {
-			//
-			// TODO:
-			//   Insert your code here...
-			//
-			// Example code to create and save a structure:
-			//   com.cbody.cbody2 doc = com.cbody.cbody2.createDocument();			
-			//   com.cbody.useridType root = doc.userid.append();
-			//   ...
-			//   doc.saveToFile("cbody1.xml", true);
-			//
-			// Example code to load and save a structure:
-			//   com.cbody.cbody2 doc = com.cbody.cbody2.loadFromFile("cbody1.xml");
-			//   com.cbody.useridType root = doc.userid.first();
-			//   ...
-			//   doc.saveToFile("cbody1.xml", true);
+    protected void example() throws Exception {
 
+        com.cbody.cbody2 doc = com.cbody.cbody2.loadFromFile(getClass().getClassLoader().getResource("cbody.xml").getFile());
+        String s = doc.saveToString(true);
+        System.out.println("s = " + s);
+    }
 
-	}
-
-	public static void main(String args[]) {
-		try {
-			System.out.println("cbody Test Application");
-			example();
-			System.out.println("OK");
-			System.exit(0);
-		} catch (Exception e) {
-			e.printStackTrace();
-			System.exit(1);
-		}
-	}
+    public static void main(String args[]) {
+        try {
+            System.out.println("cbody Test Application");
+            new cbodyTest().example();
+            System.out.println("OK");
+            System.exit(0);
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.exit(1);
+        }
+    }
 }
