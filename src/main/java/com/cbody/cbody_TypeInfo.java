@@ -178,42 +178,43 @@ public class cbody_TypeInfo
 		public static final int _userid = 21 ;
 		public static final int _bflag = 22 ;
 		public static final int _completed = 23 ;
-		public static final int end = 24 ;
+		public static final int _description = 24 ;
+		public static final int end = 25 ;
 	};
 
 
 	public static class _altova_mi_altova_procidinstanceType {
 		public static final int begin = _altova_mi_altova_nextstepType.end ;
 		public static final int _unnamed = _altova_mi_altova_procidinstanceType.begin ;
-		public static final int end = 25 ;
+		public static final int end = 26 ;
 	};
 
 
 	public static class _altova_mi_altova_taskidType {
 		public static final int begin = _altova_mi_altova_procidinstanceType.end ;
 		public static final int _unnamed = _altova_mi_altova_taskidType.begin ;
-		public static final int end = 26 ;
+		public static final int end = 27 ;
 	};
 
 
 	public static class _altova_mi_altova_tasknameType {
 		public static final int begin = _altova_mi_altova_taskidType.end ;
 		public static final int _unnamed = _altova_mi_altova_tasknameType.begin ;
-		public static final int end = 27 ;
+		public static final int end = 28 ;
 	};
 
 
 	public static class _altova_mi_altova_stepType {
 		public static final int begin = _altova_mi_altova_tasknameType.end ;
 		public static final int _unnamed = _altova_mi_altova_stepType.begin ;
-		public static final int end = 28 ;
+		public static final int end = 29 ;
 	};
 
 
 	public static class _altova_mi_altova_useridType {
 		public static final int begin = _altova_mi_altova_stepType.end ;
 		public static final int _unnamed = _altova_mi_altova_useridType.begin ;
-		public static final int end = 29 ;
+		public static final int end = 30 ;
 	};
 
 
@@ -292,7 +293,7 @@ public class cbody_TypeInfo
 	public static class _altova_mi_xs_altova_anyType {
 		public static final int begin = _altova_mi_xs_altova_anySimpleType.end ;
 		public static final int _unnamed = _altova_mi_xs_altova_anyType.begin ;
-		public static final int end = 30 ;
+		public static final int end = 31 ;
 	};
 
 
@@ -845,24 +846,25 @@ public class cbody_TypeInfo
 			members[21] = new MemberInfo (binder, "", "userid", _altova_ti_altova_nextstepType, _altova_ti_altova_useridType, 0, 1, 1);
 			members[22] = new MemberInfo (binder, "", "bflag", _altova_ti_altova_nextstepType, _altova_ti_altova_bflagType, 0, 1, 1);
 			members[23] = new MemberInfo (binder, "", "completed", _altova_ti_altova_nextstepType, _altova_ti_altova_completedType, 0, 1, 1);
+			members[24] = new MemberInfo (binder, "", "description", _altova_ti_altova_nextstepType, _altova_ti_altova_descriptionType, 0, 1, 1);
 
-			members[24] = new MemberInfo (binder, "", "", _altova_ti_altova_procidinstanceType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
+			members[25] = new MemberInfo (binder, "", "", _altova_ti_altova_procidinstanceType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
 
-			members[25] = new MemberInfo (binder, "", "", _altova_ti_altova_taskidType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
+			members[26] = new MemberInfo (binder, "", "", _altova_ti_altova_taskidType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
 
-			members[26] = new MemberInfo (binder, "", "", _altova_ti_altova_tasknameType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
+			members[27] = new MemberInfo (binder, "", "", _altova_ti_altova_tasknameType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
 
-			members[27] = new MemberInfo (binder, "", "", _altova_ti_altova_stepType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
+			members[28] = new MemberInfo (binder, "", "", _altova_ti_altova_stepType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
 
-			members[28] = new MemberInfo (binder, "", "", _altova_ti_altova_useridType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
+			members[29] = new MemberInfo (binder, "", "", _altova_ti_altova_useridType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
 
-			members[29] = new MemberInfo (binder, "", "", _altova_ti_xs_altova_anyType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
+			members[30] = new MemberInfo (binder, "", "", _altova_ti_xs_altova_anyType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
 
 		}
 
 		public MemberInfo[] createMembers(InfoBinderInterface binder) {
 
-			MemberInfo members[] = new MemberInfo[30];
+			MemberInfo members[] = new MemberInfo[31];
 
 			initMembers0(binder, members);
 			
