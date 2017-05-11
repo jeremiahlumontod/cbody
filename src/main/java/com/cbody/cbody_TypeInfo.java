@@ -908,7 +908,7 @@ public class cbody_TypeInfo
 			members[18] = new MemberInfo (binder, "", "", _altova_ti_altova_descriptionType, _altova_ti_altova_descriptionType2, 0|MemberInfo.IS_ATTRIBUTE, 1, 1);
 
 			members[19] = new MemberInfo (binder, "", "description", _altova_ti_altova_detailsType, _altova_ti_altova_descriptionType, 0, 1, 1);
-			members[20] = new MemberInfo (binder, "", "processinfo", _altova_ti_altova_detailsType, _altova_ti_altova_processinfoType, 0, 1, 1);
+			members[20] = new MemberInfo (binder, "", "processinfo", _altova_ti_altova_detailsType, _altova_ti_altova_processinfoType, 0, 1, -1);
 			members[21] = new MemberInfo (binder, "", "steps", _altova_ti_altova_detailsType, _altova_ti_altova_stepsType, 0, 1, 1);
 
 			members[22] = new MemberInfo (binder, "", "status", _altova_ti_altova_processinfoType, _altova_ti_altova_statusType, 0, 1, 1);
