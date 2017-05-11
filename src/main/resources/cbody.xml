@@ -1,5 +1,10 @@
 <details>
     <description>desc</description>
+    <processinfo>
+		<status></status>
+		<type></type>
+		<code></code>
+    </processinfo>
 	<steps>
 		<nextstep>
 			<procidinstance>123</procidinstance>

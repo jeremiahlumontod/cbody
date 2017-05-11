@@ -3,20 +3,17 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<xs:element name="userid">
 		<xs:simpleType>
-			<xs:restriction base="xs:string">
-			</xs:restriction>
+			<xs:restriction base="xs:string"/>
 		</xs:simpleType>
 	</xs:element>
 	<xs:element name="taskname">
 		<xs:simpleType>
-			<xs:restriction base="xs:string">
-			</xs:restriction>
+			<xs:restriction base="xs:string"/>
 		</xs:simpleType>
 	</xs:element>
 	<xs:element name="taskid">
 		<xs:simpleType>
-			<xs:restriction base="xs:string">
-			</xs:restriction>
+			<xs:restriction base="xs:string"/>
 		</xs:simpleType>
 	</xs:element>
 	<xs:element name="steps">
@@ -28,14 +25,12 @@
 	</xs:element>
 	<xs:element name="step">
 		<xs:simpleType>
-			<xs:restriction base="xs:string">
-			</xs:restriction>
+			<xs:restriction base="xs:string"/>
 		</xs:simpleType>
 	</xs:element>
 	<xs:element name="procidinstance">
 		<xs:simpleType>
-			<xs:restriction base="xs:string">
-			</xs:restriction>
+			<xs:restriction base="xs:string"/>
 		</xs:simpleType>
 	</xs:element>
 	<xs:element name="nextstep">
@@ -56,27 +51,49 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="description"/>
+				<xs:element ref="processinfo"/>
 				<xs:element ref="steps"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="description">
 		<xs:simpleType>
-			<xs:restriction base="xs:string">
-			</xs:restriction>
+			<xs:restriction base="xs:string"/>
 		</xs:simpleType>
 	</xs:element>
 	<xs:element name="completed">
 		<xs:simpleType>
-			<xs:restriction base="xs:string">
-			</xs:restriction>
+			<xs:restriction base="xs:string"/>
 		</xs:simpleType>
 	</xs:element>
 	<xs:element name="bflag">
 		<xs:simpleType>
-			<xs:restriction base="xs:string">
-			</xs:restriction>
+			<xs:restriction base="xs:string"/>
 		</xs:simpleType>
 	</xs:element>
-
+	<xs:element name="status">
+		<xs:simpleType>
+			<xs:restriction base="xs:string"/>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="type">
+		<xs:simpleType>
+			<xs:restriction base="xs:string"/>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="code">
+		<xs:simpleType>
+			<xs:restriction base="xs:string"/>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="processinfo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="status"/>
+				<xs:element ref="type"/>
+				<xs:element ref="code"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
 </xs:schema>

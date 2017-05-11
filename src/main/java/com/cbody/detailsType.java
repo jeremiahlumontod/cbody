@@ -28,6 +28,7 @@ public class detailsType extends com.altova.xml.TypeBase
 	{
 
 		description= new MemberElement_description (this, com.cbody.cbody_TypeInfo.binder.getMembers()[com.cbody.cbody_TypeInfo._altova_mi_altova_detailsType._description]);
+		processinfo= new MemberElement_processinfo (this, com.cbody.cbody_TypeInfo.binder.getMembers()[com.cbody.cbody_TypeInfo._altova_mi_altova_detailsType._processinfo]);
 		steps= new MemberElement_steps (this, com.cbody.cbody_TypeInfo.binder.getMembers()[com.cbody.cbody_TypeInfo._altova_mi_altova_detailsType._steps]);
 	}
 	// Attributes
@@ -76,6 +77,50 @@ public class detailsType extends com.altova.xml.TypeBase
 			public void remove() {owner.removeElement(info);}
 			public void removeAt(int index) {owner.removeElementAt(info, index);}
 			public java.util.Iterator iterator() {return new MemberElement_description_Iterator(this);}
+			public com.altova.xml.meta.Element getInfo() { return new com.altova.xml.meta.Element(info); }
+		}
+	
+	public MemberElement_processinfo processinfo;
+
+		public static class MemberElement_processinfo
+		{
+			public static class MemberElement_processinfo_Iterator implements java.util.Iterator
+			{
+				private org.w3c.dom.Node nextNode;
+				private MemberElement_processinfo member;
+				public MemberElement_processinfo_Iterator(MemberElement_processinfo member) {this.member=member; nextNode=member.owner.getElementFirst(member.info);}
+				public boolean hasNext() 
+				{
+					while (nextNode != null)
+					{
+						if (com.altova.xml.TypeBase.memberEqualsNode(member.info, nextNode))
+							return true;
+						nextNode = nextNode.getNextSibling();
+					}
+					return false;
+				}
+				
+				public Object next()
+				{
+					processinfoType nx = new processinfoType(nextNode);
+					nextNode = nextNode.getNextSibling();
+					return nx;
+				}
+				
+				public void remove () {}
+			}
+			protected com.altova.xml.TypeBase owner;
+			protected com.altova.typeinfo.MemberInfo info;
+			public MemberElement_processinfo (com.altova.xml.TypeBase owner, com.altova.typeinfo.MemberInfo info) { this.owner = owner; this.info = info;}
+			public processinfoType at(int index) {return new processinfoType(owner.getElementAt(info, index));}
+			public processinfoType first() {return new processinfoType(owner.getElementFirst(info));}
+			public processinfoType last(){return new processinfoType(owner.getElementLast(info));}
+			public processinfoType append(){return new processinfoType(owner.createElement(info));}
+			public boolean exists() {return count() > 0;}
+			public int count() {return owner.countElement(info);}
+			public void remove() {owner.removeElement(info);}
+			public void removeAt(int index) {owner.removeElementAt(info, index);}
+			public java.util.Iterator iterator() {return new MemberElement_processinfo_Iterator(this);}
 			public com.altova.xml.meta.Element getInfo() { return new com.altova.xml.meta.Element(info); }
 		}
 	
