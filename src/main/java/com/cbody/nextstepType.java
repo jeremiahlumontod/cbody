@@ -31,7 +31,8 @@ public class nextstepType extends com.altova.xml.TypeBase
 		taskid= new MemberElement_taskid (this, com.cbody.cbody_TypeInfo.binder.getMembers()[com.cbody.cbody_TypeInfo._altova_mi_altova_nextstepType._taskid]);
 		taskname= new MemberElement_taskname (this, com.cbody.cbody_TypeInfo.binder.getMembers()[com.cbody.cbody_TypeInfo._altova_mi_altova_nextstepType._taskname]);
 		step= new MemberElement_step (this, com.cbody.cbody_TypeInfo.binder.getMembers()[com.cbody.cbody_TypeInfo._altova_mi_altova_nextstepType._step]);
-		userid= new MemberElement_userid (this, com.cbody.cbody_TypeInfo.binder.getMembers()[com.cbody.cbody_TypeInfo._altova_mi_altova_nextstepType._userid]);
+		usertype= new MemberElement_usertype (this, com.cbody.cbody_TypeInfo.binder.getMembers()[com.cbody.cbody_TypeInfo._altova_mi_altova_nextstepType._usertype]);
+		usercode= new MemberElement_usercode (this, com.cbody.cbody_TypeInfo.binder.getMembers()[com.cbody.cbody_TypeInfo._altova_mi_altova_nextstepType._usercode]);
 		bflag= new MemberElement_bflag (this, com.cbody.cbody_TypeInfo.binder.getMembers()[com.cbody.cbody_TypeInfo._altova_mi_altova_nextstepType._bflag]);
 		completed= new MemberElement_completed (this, com.cbody.cbody_TypeInfo.binder.getMembers()[com.cbody.cbody_TypeInfo._altova_mi_altova_nextstepType._completed]);
 		description= new MemberElement_description (this, com.cbody.cbody_TypeInfo.binder.getMembers()[com.cbody.cbody_TypeInfo._altova_mi_altova_nextstepType._description]);
@@ -217,15 +218,15 @@ public class nextstepType extends com.altova.xml.TypeBase
 			public com.altova.xml.meta.Element getInfo() { return new com.altova.xml.meta.Element(info); }
 		}
 	
-	public MemberElement_userid userid;
+	public MemberElement_usertype usertype;
 
-		public static class MemberElement_userid
+		public static class MemberElement_usertype
 		{
-			public static class MemberElement_userid_Iterator implements java.util.Iterator
+			public static class MemberElement_usertype_Iterator implements java.util.Iterator
 			{
 				private org.w3c.dom.Node nextNode;
-				private MemberElement_userid member;
-				public MemberElement_userid_Iterator(MemberElement_userid member) {this.member=member; nextNode=member.owner.getElementFirst(member.info);}
+				private MemberElement_usertype member;
+				public MemberElement_usertype_Iterator(MemberElement_usertype member) {this.member=member; nextNode=member.owner.getElementFirst(member.info);}
 				public boolean hasNext() 
 				{
 					while (nextNode != null)
@@ -239,7 +240,7 @@ public class nextstepType extends com.altova.xml.TypeBase
 				
 				public Object next()
 				{
-					useridType nx = new useridType(nextNode);
+					usertypeType nx = new usertypeType(nextNode);
 					nextNode = nextNode.getNextSibling();
 					return nx;
 				}
@@ -248,16 +249,60 @@ public class nextstepType extends com.altova.xml.TypeBase
 			}
 			protected com.altova.xml.TypeBase owner;
 			protected com.altova.typeinfo.MemberInfo info;
-			public MemberElement_userid (com.altova.xml.TypeBase owner, com.altova.typeinfo.MemberInfo info) { this.owner = owner; this.info = info;}
-			public useridType at(int index) {return new useridType(owner.getElementAt(info, index));}
-			public useridType first() {return new useridType(owner.getElementFirst(info));}
-			public useridType last(){return new useridType(owner.getElementLast(info));}
-			public useridType append(){return new useridType(owner.createElement(info));}
+			public MemberElement_usertype (com.altova.xml.TypeBase owner, com.altova.typeinfo.MemberInfo info) { this.owner = owner; this.info = info;}
+			public usertypeType at(int index) {return new usertypeType(owner.getElementAt(info, index));}
+			public usertypeType first() {return new usertypeType(owner.getElementFirst(info));}
+			public usertypeType last(){return new usertypeType(owner.getElementLast(info));}
+			public usertypeType append(){return new usertypeType(owner.createElement(info));}
 			public boolean exists() {return count() > 0;}
 			public int count() {return owner.countElement(info);}
 			public void remove() {owner.removeElement(info);}
 			public void removeAt(int index) {owner.removeElementAt(info, index);}
-			public java.util.Iterator iterator() {return new MemberElement_userid_Iterator(this);}
+			public java.util.Iterator iterator() {return new MemberElement_usertype_Iterator(this);}
+			public com.altova.xml.meta.Element getInfo() { return new com.altova.xml.meta.Element(info); }
+		}
+	
+	public MemberElement_usercode usercode;
+
+		public static class MemberElement_usercode
+		{
+			public static class MemberElement_usercode_Iterator implements java.util.Iterator
+			{
+				private org.w3c.dom.Node nextNode;
+				private MemberElement_usercode member;
+				public MemberElement_usercode_Iterator(MemberElement_usercode member) {this.member=member; nextNode=member.owner.getElementFirst(member.info);}
+				public boolean hasNext() 
+				{
+					while (nextNode != null)
+					{
+						if (com.altova.xml.TypeBase.memberEqualsNode(member.info, nextNode))
+							return true;
+						nextNode = nextNode.getNextSibling();
+					}
+					return false;
+				}
+				
+				public Object next()
+				{
+					usercodeType nx = new usercodeType(nextNode);
+					nextNode = nextNode.getNextSibling();
+					return nx;
+				}
+				
+				public void remove () {}
+			}
+			protected com.altova.xml.TypeBase owner;
+			protected com.altova.typeinfo.MemberInfo info;
+			public MemberElement_usercode (com.altova.xml.TypeBase owner, com.altova.typeinfo.MemberInfo info) { this.owner = owner; this.info = info;}
+			public usercodeType at(int index) {return new usercodeType(owner.getElementAt(info, index));}
+			public usercodeType first() {return new usercodeType(owner.getElementFirst(info));}
+			public usercodeType last(){return new usercodeType(owner.getElementLast(info));}
+			public usercodeType append(){return new usercodeType(owner.createElement(info));}
+			public boolean exists() {return count() > 0;}
+			public int count() {return owner.countElement(info);}
+			public void remove() {owner.removeElement(info);}
+			public void removeAt(int index) {owner.removeElementAt(info, index);}
+			public java.util.Iterator iterator() {return new MemberElement_usercode_Iterator(this);}
 			public com.altova.xml.meta.Element getInfo() { return new com.altova.xml.meta.Element(info); }
 		}
 	
