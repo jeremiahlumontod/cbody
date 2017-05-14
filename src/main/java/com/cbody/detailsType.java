@@ -28,6 +28,7 @@ public class detailsType extends com.altova.xml.TypeBase
 	{
 
 		description= new MemberElement_description (this, com.cbody.cbody_TypeInfo.binder.getMembers()[com.cbody.cbody_TypeInfo._altova_mi_altova_detailsType._description]);
+		processdetailsid= new MemberElement_processdetailsid (this, com.cbody.cbody_TypeInfo.binder.getMembers()[com.cbody.cbody_TypeInfo._altova_mi_altova_detailsType._processdetailsid]);
 		processinfo= new MemberElement_processinfo (this, com.cbody.cbody_TypeInfo.binder.getMembers()[com.cbody.cbody_TypeInfo._altova_mi_altova_detailsType._processinfo]);
 		steps= new MemberElement_steps (this, com.cbody.cbody_TypeInfo.binder.getMembers()[com.cbody.cbody_TypeInfo._altova_mi_altova_detailsType._steps]);
 	}
@@ -77,6 +78,50 @@ public class detailsType extends com.altova.xml.TypeBase
 			public void remove() {owner.removeElement(info);}
 			public void removeAt(int index) {owner.removeElementAt(info, index);}
 			public java.util.Iterator iterator() {return new MemberElement_description_Iterator(this);}
+			public com.altova.xml.meta.Element getInfo() { return new com.altova.xml.meta.Element(info); }
+		}
+	
+	public MemberElement_processdetailsid processdetailsid;
+
+		public static class MemberElement_processdetailsid
+		{
+			public static class MemberElement_processdetailsid_Iterator implements java.util.Iterator
+			{
+				private org.w3c.dom.Node nextNode;
+				private MemberElement_processdetailsid member;
+				public MemberElement_processdetailsid_Iterator(MemberElement_processdetailsid member) {this.member=member; nextNode=member.owner.getElementFirst(member.info);}
+				public boolean hasNext() 
+				{
+					while (nextNode != null)
+					{
+						if (com.altova.xml.TypeBase.memberEqualsNode(member.info, nextNode))
+							return true;
+						nextNode = nextNode.getNextSibling();
+					}
+					return false;
+				}
+				
+				public Object next()
+				{
+					processdetailsidType nx = new processdetailsidType(nextNode);
+					nextNode = nextNode.getNextSibling();
+					return nx;
+				}
+				
+				public void remove () {}
+			}
+			protected com.altova.xml.TypeBase owner;
+			protected com.altova.typeinfo.MemberInfo info;
+			public MemberElement_processdetailsid (com.altova.xml.TypeBase owner, com.altova.typeinfo.MemberInfo info) { this.owner = owner; this.info = info;}
+			public processdetailsidType at(int index) {return new processdetailsidType(owner.getElementAt(info, index));}
+			public processdetailsidType first() {return new processdetailsidType(owner.getElementFirst(info));}
+			public processdetailsidType last(){return new processdetailsidType(owner.getElementLast(info));}
+			public processdetailsidType append(){return new processdetailsidType(owner.createElement(info));}
+			public boolean exists() {return count() > 0;}
+			public int count() {return owner.countElement(info);}
+			public void remove() {owner.removeElement(info);}
+			public void removeAt(int index) {owner.removeElementAt(info, index);}
+			public java.util.Iterator iterator() {return new MemberElement_processdetailsid_Iterator(this);}
 			public com.altova.xml.meta.Element getInfo() { return new com.altova.xml.meta.Element(info); }
 		}
 	
