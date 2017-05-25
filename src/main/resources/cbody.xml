@@ -52,4 +52,9 @@
 			<description>desc</description>
 		</nextstep>
 	</steps>
+    <processinfo>
+        <status></status>
+        <type></type>
+        <code></code>
+    </processinfo>
 </details>
