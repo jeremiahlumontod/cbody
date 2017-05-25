@@ -933,7 +933,7 @@ public class cbody_TypeInfo
 
 			members[21] = new MemberInfo (binder, "", "description", _altova_ti_altova_detailsType, _altova_ti_altova_descriptionType, 0, 1, 1);
 			members[22] = new MemberInfo (binder, "", "processdetailsid", _altova_ti_altova_detailsType, _altova_ti_altova_processdetailsidType, 0, 1, 1);
-			members[23] = new MemberInfo (binder, "", "processinfo", _altova_ti_altova_detailsType, _altova_ti_altova_processinfoType, 0, 1, 1);
+			members[23] = new MemberInfo (binder, "", "processinfo", _altova_ti_altova_detailsType, _altova_ti_altova_processinfoType, 0, 1, -1);
 			members[24] = new MemberInfo (binder, "", "steps", _altova_ti_altova_detailsType, _altova_ti_altova_stepsType, 0, 1, 1);
 
 			members[25] = new MemberInfo (binder, "", "", _altova_ti_altova_processdetailsidType, _altova_ti_xs_altova_anySimpleType, 0|MemberInfo.IS_ATTRIBUTE, 0, -1);
